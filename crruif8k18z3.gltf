@@ -1,5 +1,5 @@
 {
-    "accessors": {
+    "accessors": [
         "mesh_accessor": {
             "bufferView": "mesh_view",
             "byteOffset": 0,
@@ -50,15 +50,18 @@
                 0.0
             ]
         }
-    },
-    "buffers": {
-        "../../download/crruif8k18z3/crruif8k18z3": {
-            "byteLength": 780180,
-            "type": "arraybuffer",
-            "uri": "../../download/crruif8k18z3/crruif8k18z3.bin"
-        }
-    },
-    "bufferViews": {
+    ],
+    "asset": {
+        "extras": {
+          "author": "Abner Wu (https://sketchfab.com/dashdu)",
+          "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+          "source": "https://sketchfab.com/3d-models/tyrannosaurus-rex-8ca1f4a7ff7041b5b4aa663634934f4c",
+          "title": "Tyrannosaurus Rex"
+        },
+        "generator": "Sketchfab-5.68.0",
+        "version": "2.0"
+      },
+    "bufferViews": [
         "mesh_view": {
             "buffer": "../../download/crruif8k18z3/crruif8k18z3",
             "byteOffset": 0,
@@ -77,8 +80,15 @@
             "byteLength": 84708,
             "target": 34963
         }
-    },
-    "materials": {
+    ], 
+    "buffers": [
+        "../../download/crruif8k18z3/crruif8k18z3": {
+            "byteLength": 780180,
+            "type": "arraybuffer",
+            "uri": "../../download/crruif8k18z3/crruif8k18z3.bin"
+        }
+    ],
+    "materials": [
         "DefaultMaterial": {
             "values": {
                 "ambient": [
@@ -108,9 +118,9 @@
                 "shininess": 0.0
             }
         }
-    },
-    "meshes": {
-        "mesh": {
+    ],
+    "meshes": [
+       {
             "name": "",
             "primitives": [
                 {
@@ -124,8 +134,8 @@
                 }
             ]
         }
-    },
-    "nodes": {
+    ],
+    "nodes": [
         "node": {
             "children": [
                 "ASCII"
@@ -136,13 +146,39 @@
                 "mesh"
             ]
         }
-    },
-    "scenes": {
+    ],
+    "samplers": [
+        {
+          "magFilter": 9729,
+          "minFilter": 9987,
+          "wrapS": 10497,
+          "wrapT": 10497
+        }
+      ],
+    "scenes": [
         "defaultScene": {
             "nodes": [
                 "node"
             ]
         }
-    },
-    "scene": "defaultScene"
+    ],
+    "scene": 0,
+    "textures": [
+        {
+          "sampler": 0,
+          "source": 0
+        },
+        {
+          "sampler": 0,
+          "source": 1
+        },
+        {
+          "sampler": 0,
+          "source": 2
+        },
+        {
+          "sampler": 0,
+          "source": 3
+        }
+      ]
 }
