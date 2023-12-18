@@ -1,0 +1,152 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "mesh_accessor": {
+            "bufferView": "mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 28978,
+            "type": "VEC3",
+            "max": [
+                32.49999237060547,
+                32.5,
+                94.79999542236328
+            ],
+            "min": [
+                -38.475650787353519,
+                -32.49576187133789,
+                0.0
+            ]
+        },
+        "mesh_accessor_0": {
+            "bufferView": "mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 28978,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "mesh_accessor_1": {
+            "bufferView": "mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 42354,
+            "type": "SCALAR",
+            "max": [
+                28977.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/crruif8k18z3/crruif8k18z3": {
+            "byteLength": 780180,
+            "type": "arraybuffer",
+            "uri": "../../download/crruif8k18z3/crruif8k18z3.bin"
+        }
+    },
+    "bufferViews": {
+        "mesh_view": {
+            "buffer": "../../download/crruif8k18z3/crruif8k18z3",
+            "byteOffset": 0,
+            "byteLength": 347736,
+            "target": 34962
+        },
+        "mesh_view_0": {
+            "buffer": "../../download/crruif8k18z3/crruif8k18z3",
+            "byteOffset": 347736,
+            "byteLength": 347736,
+            "target": 34962
+        },
+        "mesh_view_1": {
+            "buffer": "../../download/crruif8k18z3/crruif8k18z3",
+            "byteOffset": 695472,
+            "byteLength": 84708,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "DefaultMaterial",
+                    "indices": "mesh_accessor_1",
+                    "attributes": {
+                        "POSITION": "mesh_accessor",
+                        "NORMAL": "mesh_accessor_0"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node": {
+            "children": [
+                "ASCII"
+            ]
+        },
+        "ASCII": {
+            "meshes": [
+                "mesh"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
