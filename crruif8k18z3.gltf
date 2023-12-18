@@ -1,8 +1,4 @@
 {
-    "asset": {
-        "version": "1.0",
-        "generator": "Open Asset Import Library (assimp v4.1.0)"
-    },
     "accessors": {
         "mesh_accessor": {
             "bufferView": "mesh_view",
